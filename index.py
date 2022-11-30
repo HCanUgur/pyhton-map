@@ -65,7 +65,7 @@ named_img = ts.bgpic("assets/named.gif")
 unnamed_img = ts.bgpic("assets/unnamed.gif")
 total_wrong_counter = 0
 correct_guessed = 0
-city_numbers=81
+city_numbers=41
 
 # Create the screen and set the mode to "logo"
 wn = turtle.Screen()
