@@ -13,7 +13,7 @@ unnamed_img = ts.bgpic("assets/unnamed.gif")
 cities = {
     "Istanbul": (-100, -100),
     "Kilis": (100, -180),
-    "Elazığ": (100,-70),
+    "Elazig": (100,-70),
     "Sivas": (100,70),
      "Ordu": (110,150),
      "Samsun": (15,190),
@@ -152,6 +152,7 @@ for prv, city_curr, city_next in iterate_prv_nxt(cities):
                 align="right",
                 move=False,
             )
+            turtle.goto(x,y)
             wn.title(
                "Python Challenge with Turtle Graphics - Correct Guesses: "
                 + str(correct_guessed)
